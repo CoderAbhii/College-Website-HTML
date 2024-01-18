@@ -1,0 +1,147 @@
+@media only screen and (max-width: 767px) {
+    #top{
+        justify-content: center;
+    }
+    #top .left{
+        display: none;
+    }
+    nav{
+        position: fixed;
+        width: 100%;
+        z-index: 30;
+    }
+#signUp .modal-header h1 {
+    font-size: 1.7rem;
+    padding-left: 0;
+}
+#login .modal-header h1 {
+    font-size: 1.7rem;
+    padding-left: 50px;
+}
+    nav .logo a {
+        font-size: 25px;
+    }
+  #carousel-section .carousel-caption {
+    width: 90%;
+    left: 3%;
+  }
+  #carousel-section .carousel-caption .head {
+    padding: 5px 10px;
+  }
+  #carousel-section .carousel-caption .title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  #carousel-section .carousel-caption .desc {
+    font-size: 12px;
+  }
+  .custom-btn {
+    padding: 10px 10px;
+    font-size: 12px;
+    width: 100px;
+    height: 35px;
+  }
+  #features .card {
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+  #about-us {
+    padding: 60px 0;
+}
+#about-us .about-left {
+    padding-right: 0;
+}
+#about-us .d-flex {
+  margin: 40px 0;
+}
+#course .top-head p {
+    width: 90%;
+}
+#achievement {
+    padding: 60px 0;
+}
+#achievement .row{
+    width: 100%;
+}
+#achievement .col-12 {
+    margin: 20px;
+}
+#achievement h3 {
+    font-size: 40px;
+}
+#service .top-head p {
+    width: 90%;
+}
+#testimonial .top-head p {
+    width: 90%;
+}
+footer .footer-sec-one {
+    width: 100%;
+    margin-bottom: 30px;
+}
+footer .footer-links .desc {
+    width: 100%;
+}
+footer .footer-links .form-control {
+    width: 100%;
+}
+footer .footer-links .submit-newsletter {
+    width: 100%;
+}
+footer .footer-sec-two {
+    width: 50%;
+}
+footer .footer-sec-three {
+    width: 50%;
+}
+footer .footer-sec-four {
+    width: 100%;
+    margin-bottom: 20px;
+}
+footer .footer-copyright .section-one a {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+footer .footer-copyright p{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+}
+@media only screen and (min-width: 767px) and (max-width: 992px){
+    nav{
+        padding: 0 100px;
+      }
+    #carousel-section .carousel-caption {
+        width: 70%;
+    }
+    #features .card-group{
+        flex-direction: column;
+    }
+    #about-us .col-12:nth-child(1){
+        margin-bottom: 40px;
+    }
+    #about-us .about-right img {
+        border: 1px solid #0c1d36;
+    }
+    #course .top-head p, #service .top-head p, #testimonial .top-head p {
+        width: 70%;
+    }
+    footer .footer-sec-one {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    footer .footer-sec-two {
+        width: 35%;
+    }
+    footer .footer-sec-three {
+        width: 35%;
+    }
+    footer .footer-sec-four {
+        width: 30%;
+    }
+    footer .footer-copyright{
+        margin-top: 40px;
+    }
+}

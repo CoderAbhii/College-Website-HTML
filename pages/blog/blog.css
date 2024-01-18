@@ -1,0 +1,184 @@
+#blog-page{
+    background-image: url("https://img.freepik.com/free-photo/technology-communication-icons-symbols-concept_53876-120314.jpg?w=826&t=st=1674144935~exp=1674145535~hmac=ed9bac9a2e1cdb9227a1334c08f848502541b409eba5b877085632c20765ddfd");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 240px 0 120px 0;
+    overflow: hidden;
+    text-align: center;
+}
+#blog-page.overlay {
+    position: relative;
+    z-index: 2;
+}
+#blog-page.overlay::before {
+    background-color: #081828;
+}
+#blog-page.overlay::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    background: #081828;
+    content: "";
+    transition: all .4s ease;
+    z-index: -1;
+}
+#blog-page .col-12{
+    width: 50%;
+    margin: auto;
+}
+#blog-page .blog-page-content .page-title {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+    line-height: 50px;
+    padding-bottom: 20px;
+}
+#blog-page .blog-page-content .page-title:before {
+    position: absolute;
+    content: "";
+    left: 40%;
+    bottom: 0;
+    height: 4px;
+    width: 90px;
+    background: #fff;
+    border-radius: 5px;
+}
+#blog-page .blog-page-content  p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 25px;
+}
+#blog-page .blog-page-nav{
+    float: none;
+    margin-top: 40px!important;
+    background: #fff3;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin: 0;
+    display: inline-block;
+}
+#blog-page .blog-page-nav li {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+#blog-page .blog-page-nav li a {
+    padding-right: 15px;
+    margin-right: 15px;
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+#blogs {
+    padding: 100px 0;
+  }
+  #blogs .top-head h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    line-height: 40px;
+    position: relative;
+    font-weight: 700;
+    text-align: center;
+  }
+  #blogs .top-head h2::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    width: 50px;
+    background-color: #0c1d36;
+    border-radius: 10px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  #blogs .top-head p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #888;
+    width: 40vw;
+    margin: auto;
+    text-align: center;
+  }
+  #blogs .content {
+    padding-top: 70px;
+  }
+  #blogs .content .card {
+    border: 1px solid rgb(235, 234, 234);
+    border-radius: 0;
+    margin-bottom: 50px;
+    transition: 0.5s all;
+  }
+  #blogs .content .card:hover{
+    transform: translateY(-20px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  #blogs .content .card img {
+    border-radius: 0;
+  }
+  #blogs .content .card-body {
+    padding: 30px 30px;
+  }
+  #blogs .content .card-body .post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding: 0 80px 20px 50px;
+    background-color: #0c1d36;
+    color: #f9cc0b;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 6px;
+    margin-bottom: 20px;
+  }
+  #blogs .content .card-body .post p{
+    margin-bottom: 0;
+  }
+  #blogs .content .card .card-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #081828;
+  }
+  #blogs .content .card .card-text {
+    color: #888;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  
+
+  @media only screen and (max-width: 767px){
+    #blog-page .col-12 {
+        width: 100%;
+    }
+    #blogs .top-head p {
+        width: 95%;
+    }
+  }
+
+  @media only screen and (min-width: 767px) and (max-width: 992px){
+    #blog-page .col-12 {
+        width: 70%;
+    }
+    #blogs .top-head p {
+        width: 70%;
+    }
+  }
+
+  
+@media only screen and (max-width: 920px){
+  nav ul{
+      top: 80px;
+  }
+}

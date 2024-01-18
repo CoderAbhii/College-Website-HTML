@@ -1,0 +1,180 @@
+#registartion-page {
+  background-image: url("https://img.freepik.com/free-photo/businessman-examining-papers-table_1262-3706.jpg?w=996&t=st=1674075155~exp=1674075755~hmac=993a94578685b0fecbd3855be819f3f654e291aaf0f86cb56386c0eec7d128cf");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 200px 0 120px 0;
+  overflow: hidden;
+  text-align: center;
+}
+#registartion-page.overlay {
+  position: relative;
+  z-index: 2;
+}
+#registartion-page.overlay::before {
+  background-color: #081828;
+}
+#registartion-page.overlay::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background: #081828;
+  content: "";
+  transition: all 0.4s ease;
+  z-index: -1;
+}
+#registartion-page .col-12 {
+  width: 50%;
+  margin: auto;
+}
+#registartion-page .registartion-page-content .page-title {
+  font-size: 35px;
+  color: #fff;
+  font-weight: 700;
+  position: relative;
+  line-height: 50px;
+  padding-bottom: 20px;
+}
+#registartion-page .registartion-page-content .page-title:before {
+  position: absolute;
+  content: "";
+  left: 40%;
+  bottom: 0;
+  height: 4px;
+  width: 90px;
+  background: #fff;
+  border-radius: 5px;
+}
+#registartion-page .registartion-page-content p {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 25px;
+}
+#registartion-page .registartion-page-nav {
+  float: none;
+  margin-top: 40px !important;
+  background: #fff3;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin: 0;
+  display: inline-block;
+}
+#registartion-page .registartion-page-nav li {
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+#registartion-page .registartion-page-nav li a {
+  padding-right: 15px;
+  margin-right: 15px;
+  position: relative;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#registration-form {
+  padding: 100px 0;
+}
+.modal.show .modal-dialog {
+  max-width: 60vw;
+}
+.form-content {
+  padding: 30px 30px;
+  background-color: #fff;
+  border: 2px solid #0c1d36;
+}
+form .row {
+  padding: 10px 0;
+}
+form .form-label {
+  margin-bottom: 0;
+  font-size: 17px;
+}
+form .form-control {
+  border: 1px solid #0c1d36;
+  border-radius: 0;
+}
+form .form-select {
+  border: 1px solid #0c1d36;
+  border-radius: 0;
+}
+form .form-control:focus-visible {
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #0c1d36;
+}
+form .form-select:focus-visible {
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #0c1d36;
+}
+form .submit-btn {
+  padding: 10px;
+  border: 1px solid #0c1d36;
+  color: #fff;
+  background: #0c1d36;
+  width: 100%;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+form .submit-btn:hover {
+  color: #fff;
+  background: #0c1d36;
+}
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  color: #fff;
+  background-color: #0c1d36 !important;
+  border: 1px solid #0c1d36 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  #registartion-page .col-12 {
+    width: 100%;
+  }
+  button {
+    width: 50% !important;
+  }
+  .modal.show .modal-dialog {
+    max-width: 100%;
+  }
+  .modal-header .btn-close {
+    display: flex;
+    justify-content: end;
+    width: 20px !important;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+  #registartion-page .col-12 {
+    width: 70%;
+  }
+  button {
+    width: 50% !important;
+  }
+  .modal.show .modal-dialog {
+    max-width: 100%;
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+  button {
+    width: 20% !important;
+  }
+}
+
+
+@media only screen and (max-width: 920px){
+  nav ul{
+      top: 80px;
+  }
+}

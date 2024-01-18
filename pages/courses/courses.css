@@ -1,0 +1,188 @@
+#course-page {
+  background-image: url("https://img.freepik.com/free-photo/education-day-assortment-with-copy-space_23-2148721275.jpg?w=1060&t=st=1674071783~exp=1674072383~hmac=4ec0b53f905e7eb82ed6810f4c862692d087f1af52b750651890503d3a11dc3c");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 240px 0 120px 0;
+  overflow: hidden;
+  text-align: center;
+}
+#course-page.overlay {
+  position: relative;
+  z-index: 2;
+}
+#course-page.overlay::before {
+  background-color: #081828;
+}
+#course-page.overlay::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background: #081828;
+  content: "";
+  transition: all 0.4s ease;
+  z-index: -1;
+}
+#course-page .col-12 {
+  width: 50%;
+  margin: auto;
+}
+#course-page .course-page-content .page-title {
+  font-size: 35px;
+  color: #fff;
+  font-weight: 700;
+  position: relative;
+  line-height: 50px;
+  padding-bottom: 20px;
+}
+#course-page .course-page-content .page-title:before {
+  position: absolute;
+  content: "";
+  left: 40%;
+  bottom: 0;
+  height: 4px;
+  width: 90px;
+  background: #fff;
+  border-radius: 5px;
+}
+#course-page .course-page-content p {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 25px;
+}
+#course-page .course-page-nav {
+  float: none;
+  margin-top: 40px !important;
+  background: #fff3;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin: 0;
+  display: inline-block;
+}
+#course-page .course-page-nav li {
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+#course-page .course-page-nav li a {
+  padding-right: 15px;
+  margin-right: 15px;
+  position: relative;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Enrole Start */
+#enrole{
+  padding: 60px 0;
+  background-image: url("https://img.freepik.com/free-photo/hands-holding-balloons-spelling-career_53876-146852.jpg?w=1060&t=st=1674072269~exp=1674072869~hmac=369af2f90cf7f8799ea4e95f865a1d890b0144479bae3d01f37bc9d67b8aaa5e");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+#enrole {
+  position: relative;
+  z-index: 2;
+}
+#enrole::before {
+  background-color: #0c1d36;
+  opacity: 0.92;
+}
+#enrole::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  background-color: #0c1d36;
+  content: "";
+  z-index: -1;
+}
+#enrole .row{
+    justify-content: space-between;
+    padding: 0 50px;
+}
+#enrole .col-lg-6{
+    text-align: start;
+}
+#enrole h3 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #fff;
+}
+#enrole h2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  margin-top: 20px;
+}
+#enrole form {
+    padding: 30px;
+    background-color: #fff;
+}
+#enrole form .form-control:focus-visible{
+    box-shadow: none;
+    border: 1px solid #0c1d36;
+}
+#enrole form button{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    border: none;
+    background: #0c1d36;
+    color: #fff;
+}
+/* Enrole End */
+
+
+
+@media only screen and (max-width: 767px){
+    #course-page .col-12 {
+        width: 100%;
+    }
+    #enrole .row {
+        padding: 0 10px;
+    }
+    #enrole .row .col-lg-6:nth-child(1){
+        margin-bottom: 40px;
+    }
+    #enrole h2 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 992px){
+    #course-page .col-12 {
+        width: 70%;
+    }
+    #enrole .row {
+        padding: 0 10px;
+    }
+    #enrole .col-lg-6:nth-child(1) {
+        width: 55%;
+    }
+    #enrole .col-lg-6:nth-child(2) {
+        width: 45%;
+    }
+}
+
+
+
+@media only screen and (max-width: 920px){
+  nav ul{
+      top: 80px;
+  }
+}

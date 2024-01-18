@@ -1,0 +1,182 @@
+#faq-page {
+    background-image: url("https://img.freepik.com/free-photo/businesswoman-standing-thinking-near-big-question-mark-isolated-white-background_126523-3114.jpg?w=996&t=st=1674151962~exp=1674152562~hmac=67ee46ef0231e14edc897fe8bc8507c99749e9dcc449351e5386028567a35a00");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 240px 0 120px 0;
+    overflow: hidden;
+    text-align: center;
+  }
+  #faq-page.overlay {
+    position: relative;
+    z-index: 2;
+  }
+  #faq-page.overlay::before {
+    background-color: #081828;
+  }
+  #faq-page.overlay::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: #081828;
+    content: "";
+    transition: all 0.4s ease;
+    z-index: -1;
+  }
+  #faq-page .col-12 {
+    width: 50%;
+    margin: auto;
+  }
+  #faq-page .faq-page-content .page-title {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+    line-height: 50px;
+    padding-bottom: 20px;
+  }
+  #faq-page .faq-page-content .page-title:before {
+    position: absolute;
+    content: "";
+    left: 40%;
+    bottom: 0;
+    height: 4px;
+    width: 90px;
+    background: #fff;
+    border-radius: 5px;
+  }
+  #faq-page .faq-page-content p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 25px;
+  }
+  #faq-page .faq-page-nav {
+    float: none;
+    margin-top: 40px !important;
+    background: #fff3;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin: 0;
+    display: inline-block;
+  }
+  #faq-page .faq-page-nav li {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  #faq-page .faq-page-nav li a {
+    padding-right: 15px;
+    margin-right: 15px;
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  #faq{
+    padding: 100px 0;
+  }
+  #faq .top-head h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    line-height: 40px;
+    position: relative;
+    font-weight: 700;
+    text-align: center;
+  }
+  #faq .top-head h2::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    width: 50px;
+    background-color: #0c1d36;
+    border-radius: 10px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  #faq .top-head p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #888;
+    width: 40vw;
+    margin: auto;
+    text-align: center;
+  }
+  #faq .row{
+    margin-top: 100px;
+  }
+  .accordion-item{
+    margin-bottom: 30px;
+    border: 1px solid rgb(235, 234, 234) !important;
+  }
+  .accordion-item span{
+    padding: 0 3px;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+    color: #fff !important;
+    background-color: #0c1d36 !important;
+}
+.accordion-button::after {
+    background-image: none !important;
+    content: "+" !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+  
+  @media only screen and (max-width: 767px){
+      #faq-page .col-12 {
+          width: 100%;
+      }
+      #faq .top-head p {
+        width: 100%;
+      }
+      #faq .accordion-button {
+        padding: 10px 10px !important;
+      }
+      .accordion-item span {
+        padding-right: 20px;
+      }
+  }
+  
+  @media only screen and (min-width: 767px) and (max-width: 992px){
+      #faq-page .col-12 {
+          width: 70%;
+      }
+      #faq-page .faq-page-content .page-title {
+        font-size: 30px;
+      }
+      #faq .top-head p {
+        width: 70%;
+      }
+      #faq .row {
+        flex-direction: column;
+      }
+      #faq .row .col-lg-6{
+        width: 100%;
+      }
+  }
+
+
+  
+@media only screen and (max-width: 920px){
+  nav ul{
+      top: 80px;
+  }
+}
